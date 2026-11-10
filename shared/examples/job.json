@@ -1,0 +1,11 @@
+{
+  "id": "job_demo_001",
+  "preset_id": "preset_reddit_memes_seed001",
+  "status": "done",
+  "input_paths": {
+    "face_image": "data/jobs/job_demo_001/face.png"
+  },
+  "output_path": "job_demo_001.png",
+  "error": null,
+  "mocked": true
+}

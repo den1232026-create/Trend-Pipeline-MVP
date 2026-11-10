@@ -1,0 +1,31 @@
+{
+  "id": "reddit_memes_seed001",
+  "title": "AI face-swap running through a field",
+  "summary": "Creators swap their face onto a character sprinting across an open field; short vertical clips.",
+  "source": "reddit",
+  "references": [
+    {
+      "url": "https://www.reddit.com/r/aivideo/comments/seed001/example/",
+      "title": "Face-swap field run — early takes",
+      "score": 420,
+      "created_utc": 1731100000
+    },
+    {
+      "url": "https://www.reddit.com/r/memes/comments/seed001b/example/",
+      "title": "Same format, different character",
+      "score": 210,
+      "created_utc": 1731103600
+    }
+  ],
+  "signals": {
+    "score": 420,
+    "num_comments": 38,
+    "upvote_ratio": 0.94,
+    "rising_rank": 3,
+    "upvote_velocity": 84.0
+  },
+  "stage": "emerging",
+  "trend_type": "face-swap",
+  "why_trending": "High upvote_velocity on rising feed; same format repeated across 2 posts within hours.",
+  "llm_brief": null
+}

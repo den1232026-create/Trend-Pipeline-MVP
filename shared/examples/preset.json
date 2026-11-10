@@ -1,0 +1,25 @@
+{
+  "id": "preset_reddit_memes_seed001",
+  "trend_id": "reddit_memes_seed001",
+  "title": "Face-swap field run (image MVP)",
+  "user_inputs": [
+    {
+      "name": "face_image",
+      "type": "image",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "model": "gptunnel/budget-image-v1",
+      "prompt": "Apply user face onto a character running through a sunny open field, vertical meme still, high energy, clean face composite",
+      "params": {
+        "size": "768x1280",
+        "strength": 0.75
+      }
+    }
+  ],
+  "output_type": "image",
+  "est_cost_rub": 3,
+  "pipeline_rationale": "Trend type face-swap + early velocity → single budget image step; user only uploads face."
+}

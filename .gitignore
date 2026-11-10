@@ -1,0 +1,50 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.Python
+
+# Node
+node_modules/
+dist/
+build/
+web/dist/
+node-api/dist/
+*.tsbuildinfo
+
+# Runtime data (jobs, faces, generated images)
+data/trends/*
+data/presets/*
+data/jobs/*
+data/artifacts/*
+!data/trends/.gitkeep
+!data/presets/.gitkeep
+!data/jobs/.gitkeep
+!data/artifacts/.gitkeep
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Uploads / temp
+uploads/
+tmp/
+temp/
+*.tmp

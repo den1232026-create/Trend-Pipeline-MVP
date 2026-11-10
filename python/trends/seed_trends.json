@@ -1,0 +1,92 @@
+[
+  {
+    "id": "reddit_memes_seed001",
+    "title": "AI face-swap running through a field",
+    "summary": "Early-format signal: creators swap their face onto a character sprinting across an open field; short vertical clips.",
+    "source": "reddit",
+    "references": [
+      {
+        "url": "https://www.reddit.com/r/aivideo/comments/seed001/example/",
+        "title": "Face-swap field run — early takes",
+        "score": 420,
+        "created_utc": 1731100000
+      },
+      {
+        "url": "https://www.reddit.com/r/memes/comments/seed001b/example/",
+        "title": "Same format, different character",
+        "score": 210,
+        "created_utc": 1731103600
+      }
+    ],
+    "signals": {
+      "score": 420,
+      "num_comments": 38,
+      "upvote_ratio": 0.94,
+      "rising_rank": 3,
+      "upvote_velocity": 84.0,
+      "early_score": 188.5
+    },
+    "stage": "emerging",
+    "trend_type": "face-swap",
+    "why_trending": "early_score=188.5; stage=emerging; feed=seed; high upvote_velocity with format repeating across 2 posts within hours — catch before peak for GPTunnel-style vitrine.",
+    "llm_brief": null
+  },
+  {
+    "id": "reddit_memes_seed002",
+    "title": "Expanding brain template — AI edition",
+    "summary": "Early template-meme: expanding-brain panels restyled with AI art and niche tech punchlines; still climbing, not peak.",
+    "source": "reddit",
+    "references": [
+      {
+        "url": "https://www.reddit.com/r/memes/comments/seed002/example/",
+        "title": "Expanding brain but every panel is SDXL",
+        "score": 980,
+        "created_utc": 1731090000
+      },
+      {
+        "url": "https://www.reddit.com/r/memes/comments/seed002b/example/",
+        "title": "Same template, devops variant",
+        "score": 640,
+        "created_utc": 1731097200
+      }
+    ],
+    "signals": {
+      "score": 980,
+      "num_comments": 72,
+      "upvote_ratio": 0.91,
+      "rising_rank": 1,
+      "upvote_velocity": 95.0,
+      "early_score": 172.0
+    },
+    "stage": "rising",
+    "trend_type": "template-meme",
+    "why_trending": "early_score=172; stage=rising; template repeating across authors with strong velocity — still time to ship a preset before peak.",
+    "llm_brief": null
+  },
+  {
+    "id": "reddit_stablediffusion_seed003",
+    "title": "Neon cyber-portrait lookbook",
+    "summary": "Emerging AI-visual style: neon-lit portraits with near-identical lighting prompts spreading on r/StableDiffusion rising.",
+    "source": "reddit",
+    "references": [
+      {
+        "url": "https://www.reddit.com/r/StableDiffusion/comments/seed003/example/",
+        "title": "Neon cyber portrait workflow",
+        "score": 310,
+        "created_utc": 1731112000
+      }
+    ],
+    "signals": {
+      "score": 310,
+      "num_comments": 28,
+      "upvote_ratio": 0.96,
+      "rising_rank": 5,
+      "upvote_velocity": 62.0,
+      "early_score": 165.0
+    },
+    "stage": "emerging",
+    "trend_type": "ai-visual",
+    "why_trending": "early_score=165; stage=emerging; fresh rising post with high upvote_ratio — early visual look suitable for budget image preset.",
+    "llm_brief": null
+  }
+]
